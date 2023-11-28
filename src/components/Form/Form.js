@@ -20,7 +20,7 @@ export const ContactForm = ({ addContact }) => (
         </FormGroup>
         <FormGroup>
           Number
-          <Field name="number" type="number" />
+          <Field name="number" type="text" />
         </FormGroup>
 
         <button type="submit">Add contact</button>
